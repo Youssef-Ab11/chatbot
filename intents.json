@@ -1,0 +1,249 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "Greetings",
+                "what's up?",
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "bye",
+                "сао",
+                "see ya"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "don't ask :)"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me about the weather",
+                "Is it going to rain?",
+                "Weather forecast, please"
+            ],
+            "responses": [
+                "Sure, let me check the weather for you.",
+                "The weather today is sunny with a high of 25°C.",
+                "Currently, it's cloudy with a chance of rain later in the day."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "Do you have a name?",
+                "May I know your name?"
+            ],
+            "responses": [
+                "I'm a chatbot created by Youssef.",
+                "you can call me chatbot"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance.",
+                "Could you assist me?",
+                "I'm not sure what to do."
+            ],
+            "responses": [
+                "Of course, I'd be happy to help!",
+                "I'm here to assist you. What do you need?",
+                "Sure thing! What can I assist you with?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks a lot",
+                "I appreciate your help",
+                "Thanks for your assistance"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem, happy to help!",
+                "Anytime! If you need more assistance, feel free to ask.",
+                "Glad I could be of assistance!"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "What's good to eat?",
+                "Recommend a restaurant",
+                "I'm hungry, suggest something",
+                "Tell me about your favorite food"
+            ],
+            "responses": [
+                "It depends on your preference. Are you in the mood for Italian, Chinese, or something else?",
+                "There are many great options. What type of cuisine do you enjoy?",
+                "Sure! Are you looking for something specific, like a casual eatery or fine dining?",
+                "I don't eat, but I can certainly help you find some great food recommendations!"
+            ]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": [
+                "What do you do for fun?",
+                "Tell me about your hobbies",
+                "What are your interests?",
+                "Do you have any favorite activities?"
+            ],
+            "responses": [
+                "I'm an AI, so I don't have personal hobbies, but I enjoy assisting and providing information.",
+                "I'm here to help and chat, so I don't have personal hobbies like humans do.",
+                "I don't have personal hobbies, but I can engage in various conversations and tasks!",
+                "I'm all about interacting with users and helping with their inquiries."
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "What's your favorite music?",
+                "Recommend a song",
+                "Tell me about popular bands",
+                "What genre of music do you like?"
+            ],
+            "responses": [
+                "I don't have personal preferences, but I can suggest music based on your taste.",
+                "Music preferences vary, but I can help you find music from different genres.",
+                "There's a wide range of music out there. What kind of mood are you in?",
+                "I'm here to help you explore music options across genres!"
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "Tell me about the latest tech trends",
+                "What's new in technology?",
+                "Explain artificial intelligence",
+                "Recommend a good tech blog"
+            ],
+            "responses": [
+                "The tech world is always evolving. Would you like to know about AI, IoT, or any specific area?",
+                "Technology is fascinating! There's a lot happening. What specific topic are you interested in?",
+                "Sure, I can provide information about the latest advancements in technology.",
+                "I can recommend some reputable tech blogs that cover a wide range of topics."
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "Recommend a good movie",
+                "What's your favorite film?",
+                "Tell me about recent movie releases",
+                "Explain the plot of Inception"
+            ],
+            "responses": [
+                "Certainly! What genre do you prefer for movies?",
+                "Movies are great for entertainment. What kind of story are you in the mood for?",
+                "There are many new movies out. Would you like recommendations from a specific genre?",
+                "Inception is a mind-bending film directed by Christopher Nolan, exploring dreams and reality."
+            ]
+        },
+        {
+            "tag": "favorite_color",
+            "patterns": [
+                "What's your favorite color?",
+                "Tell me your preferred color",
+                "Do you like any specific colors?"
+            ],
+            "responses": [
+                "I don't have personal preferences, but I can appreciate all colors!",
+                "As an AI, I don't experience colors, but I can certainly discuss them with you.",
+                "I don't have feelings, but I can talk about colors if you'd like!"
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "Recommend a good book",
+                "Tell me about your favorite author",
+                "What's the latest bestseller?"
+            ],
+            "responses": [
+                "Books open up new worlds. What genre are you interested in?",
+                "Books are a great way to learn and be entertained. What kind of book do you want to read?",
+                "There are many amazing books out there. Are you looking for fiction or non-fiction?"
+            ]
+        },
+        {
+            "tag": "travel",
+            "patterns": [
+                "Tell me about your favorite travel destination",
+                "Recommend a travel spot",
+                "Have you been to any cool places?"
+            ],
+            "responses": [
+                "I'm an AI, so I haven't traveled, but I can suggest amazing travel destinations!",
+                "Traveling is exciting! What type of destination are you interested in?",
+                "Exploring new places is a wonderful experience. What kind of travel destination do you have in mind?"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "Tell me about a popular sport",
+                "What's your favorite sport?",
+                "Recommend a good sports event to watch"
+            ],
+            "responses": [
+                "Sports bring people together. Which sport are you curious about?",
+                "Sports are a great way to stay active. What specific sport are you interested in?",
+                "There are many exciting sports events. Are you interested in a particular type of sport?"
+            ]
+        },
+        {
+            "tag": "education",
+            "patterns": [
+                "Tell me about online courses",
+                "What's the importance of education?",
+                "Recommend a book for self-improvement"
+            ],
+            "responses": [
+                "Education is essential for personal growth. Are you interested in formal education or self-learning?",
+                "Learning is a lifelong journey. What subject or skill do you want to improve?",
+                "There are many great books for self-improvement. What area are you looking to enhance?"
+            ]
+        }
+    ]
+}
+
+    
+
